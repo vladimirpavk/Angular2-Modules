@@ -8,8 +8,14 @@ import { MyService } from './my.service';
 import { MyService2 } from './my2.service';
 import { MyService3 } from './my3.service';
 
+/*
+1
+import BrowserModule in imports:
+2
+import BrowserModule from MyModule that import and reexport BrowserModule
+*/
 @NgModule({
-  imports:      [ BrowserModule,
+  imports:      [ 
   MyModule ],
   declarations: [ 
     AppComponent,
